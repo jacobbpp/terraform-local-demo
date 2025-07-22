@@ -79,7 +79,7 @@ You'll see a message like:
 ## Want to Extend it?
 
 Try adding:
-- A second null_resource to simulate dependencies
+- A second `null_resource` to simulate dependencies
 - Outputs that return messages from your fake infrastructure
 - A GitHub Actions job for terraform destroy
 - PR triggers and approval steps to simulate production workflow
